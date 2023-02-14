@@ -1,0 +1,54 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.parallaxone{
+  width: 100%;
+  height: 100vh;
+  background-image: url("https://www.w3schools.com/w3images/parallax1.jpg");
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  margin: 0px;
+  padding: 0px;
+}
+.parallaxone h2{
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  top: 50%;
+  width: 200px;
+  height: 35px;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+.parallaxtwo{
+  width: 100%;
+  height: 100vh;
+  background-image: url("girl_hat.jpg");
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  margin: 0px;
+  padding: 0px;
+}
+.parallaxtwo h2{
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  top: 50%;
+  width: 200px;
+  height: 35px;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+.para{
+  height: 100px;
+  background-color: black;
+  padding: 40px;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
